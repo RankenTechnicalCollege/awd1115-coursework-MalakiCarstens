@@ -1,0 +1,28 @@
+﻿@model Page2Calc
+@{
+    ViewBag.Title = "Calculation Page";
+}
+<h1>Tip Calculator</h1>
+<form method="post" asp-action="Index">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <div>
+        <label class="form-label" asp-for="mealTotal">Cost of meal:</label>
+    <input class="form-control" asp-for="mealTotal" />
+    </div>
+    <div>
+        <label class="form-label" asp-for="tip15">15% tip:</label>
+        <input class="form-control" asp-for="tip15" />
+    </div>
+    <div>
+        <label class="form-label" asp-for="tip20">20% tip:</label>
+        <input class="form-control" asp-for="tip20" />
+    </div>
+    <div>
+        <label class="form-label" asp-for="tip25">25% tip:</label>
+        <input class="form-control" asp-for="tip25" />
+    </div>
+    <div>
+        <button type="submit" class="btn btn-secondary">Calculate</button>
+    </div>
+    <a class="btn btn-secondary" asp-area="" asp-controller="TipCalculate" asp-action="Index">Clear</a>
+</form>

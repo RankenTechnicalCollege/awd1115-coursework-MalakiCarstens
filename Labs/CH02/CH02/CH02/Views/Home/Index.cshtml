@@ -1,0 +1,28 @@
+﻿@model PriceQuotation
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Price Quotation</h1>
+<form method="post" asp-action="Index">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <div>
+        <label class="form-label" asp-for="Subtotal">Subtotal:</label>
+        <input class="form-control" asp-for="Subtotal" />
+    </div>
+    <div>
+        <label class="form-label" asp-for="DiscountPercent">Discount percent:</label>
+        <input class="form-control" asp-for="DiscountPercent" />
+    </div>
+    <div>
+        <label class="form-label">Discount amount:</label>
+        <span>@Model.DiscountAmount().ToString("C")</span>
+    </div>
+    <div>
+        <label class="form-label">Total:</label>
+        <span>@Model.Total().ToString("C")</span>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-secondary">Calculate</button>
+    </div>
+    <a class="btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Index">Clear</a>
+</form>
