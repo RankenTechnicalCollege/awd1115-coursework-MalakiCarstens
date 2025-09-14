@@ -1,0 +1,3 @@
+Malaki Carstens
+
+I would like to make my final project in Asp.Net Core MVC be an e-commerce store. I would like to feature collectable figures, cards, funko pops, and much more. I would like to feature an online option to add a product to sell. I would like a home page, products page, a sell to page(to add a product to the database), and I would like to also have a shopping cart and checkout page.

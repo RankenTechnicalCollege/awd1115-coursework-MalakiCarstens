@@ -1,0 +1,19 @@
+﻿@model CrazyCrankShirts
+@{
+    ViewBag.Title = "T-Shirt Factory";
+}
+<h1>Crazy Crank's T-Shirt Factory</h1>
+<h3>Order Form</h3>
+
+<form method="post" asp-action="Index">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <label asp-for="Quantity" class="form-label">Quantity</label>
+    <input asp-for="Quantity" class="form-control" />
+    <label asp-for="Discount" class="form-label">Discount Code</label>
+    <input asp-for="Discount" class="form-control" />
+    <button type="submit" class="btn btn-primary m-3">Order</button>
+</form>
+@if (ViewBag.Message != null)
+{
+    <h4 class="text-success">@ViewBag.Message</h4>
+}

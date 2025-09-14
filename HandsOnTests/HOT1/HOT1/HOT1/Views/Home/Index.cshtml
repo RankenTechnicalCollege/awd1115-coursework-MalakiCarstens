@@ -1,0 +1,20 @@
+﻿@model DistanceConvert
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Distance Converter</h1>
+</div>
+<form method="post" asp-action="Index" >
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <label asp-for="Inches" class="form-label">Distance in Inches</label>
+    <input asp-for="Inches" class="form-control" />
+    <button type="submit" class="btn btn-success m-3">Convert to cm</button>
+</form>
+@if (Model != null && Model.Inches > 0)
+{
+    <div>
+        @Model.Inches inches = @Model.Centimeters cm
+    </div>
+}
