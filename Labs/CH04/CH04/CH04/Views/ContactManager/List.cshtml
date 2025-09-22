@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ContactManager>
+@{
+    ViewBag.Title = "Contact Manager";
+}
+<div class="container">
+    <h1>
+        Contact Manager
+    </h1>
+    <a asp-action="Details" class="text-primary">Add Contact</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var contact in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Details"asp-action="Details" asp-route-id="@contact.Id">@contact.FirstName</a>
+                </td>
+                <td>
+                    <a asp-controller="Details" asp-action="Details" asp-route-id="@contact.Id">@contact.LastName</a>
+                </td>
+                <td>@contact.PhoneNum</td>
+                <td>@contact.Email</td>
+                <td>@contact.Category?.Name</td>
+                
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<HOT2.Models.Product>
+@{
+    ViewBag.Title = "Sales Order";
+}
+<h1>Sales Order Database Application</h1>
+<h5>A Perpetual SQL Server database program</h5>
+<h1>Version01</h1>
+<div class="list-group">
+    <a asp-controller="Product" asp-action="List" class="list-group-item list-group-item-action">Manage Products</a>
+    <a asp-controller="Category" asp-action="List" class="list-group-item list-group-item-action">Manage Categories</a>
+    <a asp-controller="Vendor" asp-action="List" class="list-group-item list-group-item-action">Manage Vendors</a>
+    <a asp-controller="Customer" asp-action="List" class="list-group-item list-group-item-action">Manage Customers</a>
+    <a asp-controller="Employee" asp-action="List" class="list-group-item list-group-item-action">Manage Employees</a>
+    <a asp-controller="Order" asp-action="List" class="list-group-item list-group-item-action">Manage Orders</a>
+</div>

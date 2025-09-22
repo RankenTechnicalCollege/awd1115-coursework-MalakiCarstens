@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\ecommercestore\\ecommercestore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|solutionrelative:ecommercestore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\ecommercestore\\ecommercestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|solutionrelative:ecommercestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|solutionrelative:ecommercestore\\controllers\\sellcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\ecommercestore\\ecommercestore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|solutionrelative:ecommercestore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\ecommercestore\\ecommercestore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49C14D0D-4B1B-4172-89C7-9CC40510AEEE}|EcommerceStore\\EcommerceStore.csproj|solutionrelative:ecommercestore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\Views\\Sell\\Index.cshtml",
               "RelativeDocumentMoniker": "EcommerceStore\\Views\\Sell\\Index.cshtml",
@@ -58,12 +58,11 @@
               "RelativeToolTip": "EcommerceStore\\Views\\Sell\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T21:25:36.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T21:25:36.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\Views\\Buy\\Index.cshtml",
               "RelativeDocumentMoniker": "EcommerceStore\\Views\\Buy\\Index.cshtml",
@@ -71,12 +70,11 @@
               "RelativeToolTip": "EcommerceStore\\Views\\Buy\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T21:25:23.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T21:25:23.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Buy.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\Models\\Buy.cs",
               "RelativeDocumentMoniker": "EcommerceStore\\Models\\Buy.cs",
@@ -84,12 +82,11 @@
               "RelativeToolTip": "EcommerceStore\\Models\\Buy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T21:23:52.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T21:23:52.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Sell.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\Models\\Sell.cs",
               "RelativeDocumentMoniker": "EcommerceStore\\Models\\Sell.cs",
@@ -97,12 +94,11 @@
               "RelativeToolTip": "EcommerceStore\\Models\\Sell.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T21:23:40.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T21:23:40.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BuyController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\Controllers\\BuyController.cs",
               "RelativeDocumentMoniker": "EcommerceStore\\Controllers\\BuyController.cs",
@@ -110,25 +106,37 @@
               "RelativeToolTip": "EcommerceStore\\Controllers\\BuyController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T21:23:16.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T21:23:16.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EcommerceStore\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "EcommerceStore\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-14T20:47:52.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "EcommerceStore\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "EcommerceStore\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-14T21:03:27.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SellController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\Controllers\\SellController.cs",
               "RelativeDocumentMoniker": "EcommerceStore\\Controllers\\SellController.cs",
@@ -136,8 +144,7 @@
               "RelativeToolTip": "EcommerceStore\\Controllers\\SellController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T21:22:58.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T21:22:58.728Z"
             },
             {
               "$type": "Document",
@@ -149,21 +156,7 @@
               "RelativeToolTip": "EcommerceStore\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T20:50:17.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "EcommerceStore\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\EcommerceStore\\EcommerceStore\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "EcommerceStore\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-14T21:03:27.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T20:50:17.373Z"
             }
           ]
         }
