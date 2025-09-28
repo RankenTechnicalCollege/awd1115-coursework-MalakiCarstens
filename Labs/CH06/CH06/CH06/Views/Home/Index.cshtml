@@ -1,0 +1,48 @@
+﻿@model List<FAQ>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Frequently Asked Questions</h1>
+
+<div class="row">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">All FAQs</a>
+        </li>
+        @foreach (Topic topic in ViewBag.Topics)
+        {
+            <li class="nav-item">
+                <a asp-action="Index" class="nav-link" asp-route-topic="@topic.TopicId">@topic.Name</a>
+            </li>
+        }
+    </ul>
+</div>
+
+<div class="row">
+    <div class="col-2">
+    <ul class="list-group">
+            @foreach(Category category in ViewBag.Categories)
+            {
+                <li class="list-group-item">
+                    <a asp-action="Index" asp-route-category="@category.CategoryId" asp-route-topic="@ViewBag.SelectedTopic">@category.Name</a>
+                </li>
+            }
+        </ul>
+</div>
+
+<div class="col-10">
+    <ul class="list-group">
+            @foreach (FAQ fAQ in Model)
+            {
+                <li class="list-group-item">
+                    <div class="row">
+                        <span class="fw-bolder">@fAQ.Question</span> 
+                    </div>
+                    <div class="row">
+                        <span>@fAQ.Answer</span>
+                    </div>
+                </li>
+            }
+        </ul>
+</div>

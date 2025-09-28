@@ -10,6 +10,7 @@ using FandomFinds.Models;
 
 namespace FandomFinds.Controllers
 {
+    [Route("orders")]
     public class OrdersController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -19,6 +20,7 @@ namespace FandomFinds.Controllers
             _context = context;
         }
 
+        [HttpGet("")]
         // GET: Orders
         public async Task<IActionResult> Index()
         {
@@ -26,8 +28,10 @@ namespace FandomFinds.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
+
+        [HttpGet("{id}/{slug}")]
         // GET: Orders/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int? id, string slug)
         {
             if (id == null)
             {
@@ -45,6 +49,8 @@ namespace FandomFinds.Controllers
             return View(order);
         }
 
+
+        [HttpGet("create")]
         // GET: Orders/Create
         public IActionResult Create()
         {
@@ -55,7 +61,7 @@ namespace FandomFinds.Controllers
         // POST: Orders/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("OrderId,OrderDate,TotalAmount,IdentityUserId")] Order order)
         {
@@ -69,8 +75,9 @@ namespace FandomFinds.Controllers
             return View(order);
         }
 
+        [HttpGet("edit/{id}/{slug}")]
         // GET: Orders/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int? id, string slug)
         {
             if (id == null)
             {
@@ -89,9 +96,9 @@ namespace FandomFinds.Controllers
         // POST: Orders/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("edit/{id}/{slug}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("OrderId,OrderDate,TotalAmount,IdentityUserId")] Order order)
+        public async Task<IActionResult> Edit(int id, string slug, [Bind("OrderId,OrderDate,TotalAmount,IdentityUserId")] Order order)
         {
             if (id != order.OrderId)
             {
@@ -122,8 +129,10 @@ namespace FandomFinds.Controllers
             return View(order);
         }
 
+
+        [HttpGet("delete/{id}/{slug}")]
         // GET: Orders/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? id, string slug)
         {
             if (id == null)
             {
@@ -142,7 +151,7 @@ namespace FandomFinds.Controllers
         }
 
         // POST: Orders/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost("delete/{id}/{slug}"), ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -155,6 +164,14 @@ namespace FandomFinds.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        // GET: /orders/shopping/
+        [HttpGet("shopping")]
+        public IActionResult Shopping()
+        {
+            return View();
+        }
+
 
         private bool OrderExists(int id)
         {

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch06\\ch06\\ch06\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|solutionrelative:ch06\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch06\\ch06\\ch06\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|solutionrelative:ch06\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Migrations\\20250928222220_Faqdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CH06\\Migrations\\20250928222220_Faqdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch06\\ch06\\ch06\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|solutionrelative:ch06\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch06\\ch06\\ch06\\models\\faqscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|solutionrelative:ch06\\models\\faqscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch06\\ch06\\ch06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|solutionrelative:ch06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch06\\ch06\\ch06\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|solutionrelative:ch06\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch06\\ch06\\ch06\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|solutionrelative:ch06\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch06\\ch06\\ch06\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF76B5C-CC57-48A1-AC75-EA6D9AD8BE8D}|CH06\\CH06.csproj|solutionrelative:ch06\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250928222220_Faqdb.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Migrations\\20250928222220_Faqdb.cs",
+              "RelativeDocumentMoniker": "CH06\\Migrations\\20250928222220_Faqdb.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Migrations\\20250928222220_Faqdb.cs",
+              "RelativeToolTip": "CH06\\Migrations\\20250928222220_Faqdb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T22:22:20.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\appsettings.json",
+              "RelativeDocumentMoniker": "CH06\\appsettings.json",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\appsettings.json",
+              "RelativeToolTip": "CH06\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-28T22:10:08.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Program.cs",
+              "RelativeDocumentMoniker": "CH06\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Program.cs",
+              "RelativeToolTip": "CH06\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T20:35:54.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CH06\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CH06\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T20:35:33.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CH06\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CH06\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T19:47:58.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FaqsContext.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Models\\FaqsContext.cs",
+              "RelativeDocumentMoniker": "CH06\\Models\\FaqsContext.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Models\\FaqsContext.cs",
+              "RelativeToolTip": "CH06\\Models\\FaqsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T22:17:55.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CH06\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Models\\Category.cs",
+              "RelativeToolTip": "CH06\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T22:29:05.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FAQ.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Models\\FAQ.cs",
+              "RelativeDocumentMoniker": "CH06\\Models\\FAQ.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Models\\FAQ.cs",
+              "RelativeToolTip": "CH06\\Models\\FAQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T22:00:25.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "CH06\\Models\\Topic.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH06\\CH06\\CH06\\Models\\Topic.cs",
+              "RelativeToolTip": "CH06\\Models\\Topic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T20:43:27.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
