@@ -9,11 +9,11 @@ namespace FandomFinds.Models
         public DateTime OrderDate { get; set; } = DateTime.Today;
         public string TotalAmount { get; set; }
 
-        public string OrderName { get; set; }
+        public string? OrderName { get; set; }
         [ValidateNever] 
-        public IdentityUser User { get; set; }
+        public IdentityUser? User { get; set; }
 
-        public string IdentityUserId { get; set; }
+        public string? IdentityUserId { get; set; } 
 
         public string Slug(string name)
         {

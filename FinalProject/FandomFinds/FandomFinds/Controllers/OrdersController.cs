@@ -1,22 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using FandomFinds.Data;
+using FandomFinds.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using FandomFinds.Data;
-using FandomFinds.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace FandomFinds.Controllers
 {
+    [Authorize]
     [Route("orders")]
     public class OrdersController : Controller
     {
+        private readonly UserManager<IdentityUser> _userManager;
+
         private readonly ApplicationDbContext _context;
 
-        public OrdersController(ApplicationDbContext context)
+        public OrdersController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
+            _userManager = userManager;
             _context = context;
         }
 
@@ -54,112 +60,94 @@ namespace FandomFinds.Controllers
         // GET: Orders/Create
         public IActionResult Create()
         {
-            ViewData["IdentityUserId"] = new SelectList(_context.Users, "Id", "Id");
+            //var userId = _userManager.GetUserId(User);
+
+            //var order = new Order { IdentityUserId = userId };
+
             return View();
         }
 
         // POST: Orders/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost("create")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("OrderId,OrderDate,TotalAmount,IdentityUserId")] Order order)
+        public async Task<IActionResult> Create([Bind("OrderDate,TotalAmount,OrderName")] Order order)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(order);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["IdentityUserId"] = new SelectList(_context.Users, "Id", "Id", order.IdentityUserId);
-            return View(order);
+            if (!User.Identity.IsAuthenticated)
+                return RedirectToAction("Login", "Account");
+
+            if (!ModelState.IsValid)
+                return View(order);
+
+            order.IdentityUserId = _userManager.GetUserId(User);
+
+            // Ensure slug-safe OrderName (kebab-case)
+            order.OrderName = order.OrderName?.Trim().ToLower().Replace(" ", "-");
+
+            _context.Add(order);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
+
+
+
 
         [HttpGet("edit/{id}/{slug}")]
-        // GET: Orders/Edit/5
         public async Task<IActionResult> Edit(int? id, string slug)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var order = await _context.Orders.FindAsync(id);
-            if (order == null)
-            {
-                return NotFound();
-            }
-            ViewData["IdentityUserId"] = new SelectList(_context.Users, "Id", "Id", order.IdentityUserId);
+            if (order == null) return NotFound();
+
             return View(order);
         }
 
-        // POST: Orders/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost("edit/{id}/{slug}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, string slug, [Bind("OrderId,OrderDate,TotalAmount,IdentityUserId")] Order order)
+        public async Task<IActionResult> Edit(int id, string slug, [Bind("OrderId,OrderDate,TotalAmount,OrderName,IdentityUserId")] Order order)
         {
-            if (id != order.OrderId)
+            if (id != order.OrderId) return NotFound();
+
+            if (!ModelState.IsValid) return View(order);
+
+            order.OrderName = order.OrderName?.Trim().ToLower().Replace(" ", "-");
+
+            try
             {
-                return NotFound();
+                _context.Update(order);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Orders.Any(o => o.OrderId == order.OrderId)) return NotFound();
+                else throw;
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(order);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!OrderExists(order.OrderId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["IdentityUserId"] = new SelectList(_context.Users, "Id", "Id", order.IdentityUserId);
-            return View(order);
+            return RedirectToAction(nameof(Index));
         }
 
-
         [HttpGet("delete/{id}/{slug}")]
-        // GET: Orders/Delete/5
         public async Task<IActionResult> Delete(int? id, string slug)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var order = await _context.Orders
                 .Include(o => o.User)
-                .FirstOrDefaultAsync(m => m.OrderId == id);
-            if (order == null)
-            {
-                return NotFound();
-            }
+                .FirstOrDefaultAsync(o => o.OrderId == id);
+
+            if (order == null) return NotFound();
 
             return View(order);
         }
 
-        // POST: Orders/Delete/5
         [HttpPost("delete/{id}/{slug}"), ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var order = await _context.Orders.FindAsync(id);
-            if (order != null)
-            {
-                _context.Orders.Remove(order);
-            }
+            if (order != null) _context.Orders.Remove(order);
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
