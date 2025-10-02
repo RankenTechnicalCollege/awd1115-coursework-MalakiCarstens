@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\models\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\models\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\controllers\\detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\controllers\\detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\views\\contactmanager\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\contactmanager\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\controllers\\contactmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\controllers\\contactmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\views\\details\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\details\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\models\\contactmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\models\\contactmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\views\\contactmanager\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\contactmanager\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\models\\contactmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\models\\contactmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\views\\contactmanager\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\contactmanager\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\views\\contactmanager\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\contactmanager\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\models\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\models\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|solutionrelative:ch04\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59D610F6-BC2C-49B3-8B47-247CD1C51DBD}|CH04\\CH04.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch04\\ch04\\ch04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,85 +62,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\Details\\Details.cshtml",
-              "RelativeDocumentMoniker": "CH04\\Views\\Details\\Details.cshtml",
-              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\Details\\Details.cshtml",
-              "RelativeToolTip": "CH04\\Views\\Details\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T16:32:27.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddEdit.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\AddEdit.cshtml",
-              "RelativeDocumentMoniker": "CH04\\Views\\ContactManager\\AddEdit.cshtml",
-              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\AddEdit.cshtml",
-              "RelativeToolTip": "CH04\\Views\\ContactManager\\AddEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T17:24:36.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\List.cshtml",
-              "RelativeDocumentMoniker": "CH04\\Views\\ContactManager\\List.cshtml",
-              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\List.cshtml",
-              "RelativeToolTip": "CH04\\Views\\ContactManager\\List.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T21:02:53.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContactManager.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\ContactManager.cs",
-              "RelativeDocumentMoniker": "CH04\\Models\\ContactManager.cs",
-              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\ContactManager.cs",
-              "RelativeToolTip": "CH04\\Models\\ContactManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Title": "DetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Controllers\\DetailsController.cs",
+              "RelativeDocumentMoniker": "CH04\\Controllers\\DetailsController.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Controllers\\DetailsController.cs",
+              "RelativeToolTip": "CH04\\Controllers\\DetailsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:28:06.937Z",
+              "WhenOpened": "2025-10-01T14:00:02.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "CH04\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\Category.cs",
-              "RelativeToolTip": "CH04\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "ContactManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Controllers\\ContactManagerController.cs",
+              "RelativeDocumentMoniker": "CH04\\Controllers\\ContactManagerController.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Controllers\\ContactManagerController.cs",
+              "RelativeToolTip": "CH04\\Controllers\\ContactManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:24:55.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T13:59:48.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\Details\\Details.cshtml",
+              "RelativeDocumentMoniker": "CH04\\Views\\Details\\Details.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\Details\\Details.cshtml",
+              "RelativeToolTip": "CH04\\Views\\Details\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T17:19:53.05Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ContactManagerContext.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\ContactManagerContext.cs",
-              "RelativeDocumentMoniker": "CH04\\Models\\ContactManagerContext.cs",
-              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\ContactManagerContext.cs",
-              "RelativeToolTip": "CH04\\Models\\ContactManagerContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:41:54.965Z",
-              "EditorCaption": ""
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CH04\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CH04\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T17:09:28.089Z"
             },
             {
               "$type": "Document",
@@ -142,27 +121,73 @@
               "RelativeDocumentMoniker": "CH04\\Views\\ContactManager\\Delete.cshtml",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\Delete.cshtml",
               "RelativeToolTip": "CH04\\Views\\ContactManager\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T19:35:13.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T19:35:13.649Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CH04\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CH04\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAABkAAAAAAAAAA==",
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "CH04\\Views\\ContactManager\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\AddEdit.cshtml",
+              "RelativeToolTip": "CH04\\Views\\ContactManager\\AddEdit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-20T17:09:28.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T17:24:36.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\List.cshtml",
+              "RelativeDocumentMoniker": "CH04\\Views\\ContactManager\\List.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Views\\ContactManager\\List.cshtml",
+              "RelativeToolTip": "CH04\\Views\\ContactManager\\List.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T21:02:53.555Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ContactManager.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\ContactManager.cs",
+              "RelativeDocumentMoniker": "CH04\\Models\\ContactManager.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\ContactManager.cs",
+              "RelativeToolTip": "CH04\\Models\\ContactManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:28:06.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactManagerContext.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\ContactManagerContext.cs",
+              "RelativeDocumentMoniker": "CH04\\Models\\ContactManagerContext.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\ContactManagerContext.cs",
+              "RelativeToolTip": "CH04\\Models\\ContactManagerContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:41:54.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CH04\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Models\\Category.cs",
+              "RelativeToolTip": "CH04\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:24:55.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Program.cs",
               "RelativeDocumentMoniker": "CH04\\Program.cs",
@@ -174,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "20250919194827_first.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\Migrations\\20250919194827_first.cs",
               "RelativeDocumentMoniker": "CH04\\Migrations\\20250919194827_first.cs",
@@ -186,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH04\\CH04\\CH04\\appsettings.json",
               "RelativeDocumentMoniker": "CH04\\appsettings.json",

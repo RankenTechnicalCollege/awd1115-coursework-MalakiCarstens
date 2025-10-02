@@ -14,7 +14,7 @@
     <p><strong>Added:</strong> @Model.Added.ToShortDateString()</p>
 </div>
 
-<a asp-controller="ContactManager" asp-action="AddEdit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
-<a asp-controller="ContactManager" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
-<a asp-controller="ContactManager" asp-action="List" class="btn btn-secondary">Home</a>
+<a asp-controller="ContactManager" asp-action="AddEdit" asp-route-id="@Model.Id" asp-route-slug="@Model.Slug" class="btn btn-primary">Edit</a>
+<a asp-controller="ContactManager" asp-action="Delete" asp-route-id="@Model.Id" asp-route-slug="@Model.Slug" class="btn btn-danger">Delete</a>
+<a asp-controller="ContactManager" asp-action="List" class="btn btn-secondary" asp-route-slug="@Model.Slug">Home</a>
 

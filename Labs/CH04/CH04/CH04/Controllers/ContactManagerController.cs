@@ -19,7 +19,7 @@ namespace CH04.Controllers
             return View(contacts);
         }
 
-        [HttpGet]
+        [HttpGet("delete/{id}/{slug}")]
         public async Task<IActionResult> Delete(int id)
         {
             var deleteContact = await _context.Contacts
@@ -43,7 +43,7 @@ namespace CH04.Controllers
 
 
 
-        [HttpGet]
+        [HttpGet("edit/{id}/{slug}")]
         public async Task<IActionResult> AddEdit(int id)
         {
            if (id == 0)

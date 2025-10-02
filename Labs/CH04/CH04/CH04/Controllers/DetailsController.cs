@@ -11,7 +11,7 @@ namespace CH04.Controllers
         {
             _context = context;
         }
-
+       
         public async Task<IActionResult> Details(int id)
         {
             var contact = await _context.Contacts
