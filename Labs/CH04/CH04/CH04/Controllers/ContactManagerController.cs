@@ -36,7 +36,13 @@ namespace CH04.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(ContactManager contact)
         {
-            _context.Contacts.Remove(contact);
+            var contactToDelete = await _context.Contacts.FindAsync(contact.Id);
+            if (contactToDelete == null)
+            {
+                return NotFound();
+            }
+
+            _context.Contacts.Remove(contactToDelete);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(List));
         }
@@ -66,7 +72,7 @@ namespace CH04.Controllers
             ViewBag.Operation = contact.Id == 0 ? "Add" : "Edit";
             if (ModelState.IsValid)
             {
-                if(contact.CategoryId == 0)
+                if(contact.Id == 0)
                 {
                     _context.Contacts.Add(contact);
                 }

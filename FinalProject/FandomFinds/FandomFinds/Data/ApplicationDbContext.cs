@@ -9,6 +9,7 @@ namespace FandomFinds.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+
         }
         public DbSet<Order> Orders { get; set; }
     }

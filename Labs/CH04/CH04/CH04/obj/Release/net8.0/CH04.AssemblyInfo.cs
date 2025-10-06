@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CH04")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33f2f99e22cc438306227664a9f89d881e888782")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0973e6c91ecfda98569a2145127bc3049b800596")]
 [assembly: System.Reflection.AssemblyProductAttribute("CH04")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CH04")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

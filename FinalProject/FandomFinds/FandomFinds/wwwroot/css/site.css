@@ -27,3 +27,6 @@ body {
     background-color: black;
     font-family: "Audiowide", sans-serif;
 }
+.nav-link.active {
+    border-bottom: 4px solid blue;
+}
