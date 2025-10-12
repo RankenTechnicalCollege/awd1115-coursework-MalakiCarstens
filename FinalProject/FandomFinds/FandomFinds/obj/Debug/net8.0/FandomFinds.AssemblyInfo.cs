@@ -11,12 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-FandomFinds-dcfb07de-5e98-41b2-b204-56962abdd013")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FandomFinds")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0973e6c91ecfda98569a2145127bc3049b800596")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2759c76e770732da64087062b57d69c6649b17b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FandomFinds")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FandomFinds")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

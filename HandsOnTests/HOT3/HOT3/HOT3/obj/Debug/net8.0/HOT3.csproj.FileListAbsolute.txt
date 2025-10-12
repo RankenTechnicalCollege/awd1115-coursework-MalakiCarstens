@@ -1,0 +1,10 @@
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.csproj.AssemblyReference.cache
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.AssemblyInfoInputs.cache
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.AssemblyInfo.cs
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.csproj.CoreCompileInputs.cache
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.RazorAssemblyInfo.cache
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.RazorAssemblyInfo.cs
+C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.sourcelink.json

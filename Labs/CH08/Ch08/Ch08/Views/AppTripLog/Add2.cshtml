@@ -1,0 +1,20 @@
+﻿@model Ch08.Models.AppTripLog
+@{
+    ViewBag.Title = "Add Trip Step 2";
+    Layout = "_Layout";
+}
+
+
+
+<h1>Add Info for @TempData["Accommodations"]</h1>
+<form asp-action="Add2" method="post">
+    <label asp-for="AccommodationPhone">Phone Number</label>
+    <input asp-for="AccommodationPhone" class="form-control" />
+
+    <label asp-for="AccommodationEmail">Email Address</label>
+    <input asp-for="AccommodationEmail" class="form-control" />
+
+    <button type="submit" class="btn btn-primary">Next</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+

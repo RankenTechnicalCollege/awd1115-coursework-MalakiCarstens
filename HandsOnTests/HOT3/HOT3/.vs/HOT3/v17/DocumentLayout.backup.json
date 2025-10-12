@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\models\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\product\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\product\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EA92C5D-BF53-439F-BE33-97356D6CD0DE}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\appsettings.json",
+              "RelativeDocumentMoniker": "HOT3\\appsettings.json",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\appsettings.json",
+              "RelativeToolTip": "HOT3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-09T19:45:34.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\StoreContext.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\StoreContext.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\StoreContext.cs",
+              "RelativeToolTip": "HOT3\\Models\\StoreContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwDUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:27:31.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Program.cs",
+              "RelativeDocumentMoniker": "HOT3\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Program.cs",
+              "RelativeToolTip": "HOT3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:26:52.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Product.cs",
+              "RelativeToolTip": "HOT3\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:25:57.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Product\\List.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Product\\List.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:24:47.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:24:29.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Product\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Product\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Product\\AddEdit.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Product\\AddEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:24:11.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:23:08.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:21:41.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:20:40.369Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

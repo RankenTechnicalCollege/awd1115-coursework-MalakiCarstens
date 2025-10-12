@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Ch08.Models.AppTripLog>
+@{
+    ViewBag.Title = "My Trip Log";
+    Layout = "_Layout";
+
+}
+<h1>@ViewBag.Title</h1>
+@if (ViewBag.SubHeader != null)
+{
+    <h2>@ViewBag.SubHeader</h2>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<a asp-controller="AppTripLog" asp-action="Add1">Add Trip</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Destination</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Accommodations</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Things To Do #1</th>
+        <th>#2</th>
+        <th>#3</th>
+    </tr>
+    @foreach (var trip in Model)
+    {
+        <tr>
+            <td>@trip.Destination</td>
+            <td>@trip.StartDate.ToShortDateString()</td>
+            <td>@trip.EndDate.ToShortDateString()</td>
+            <td>@trip.Accommodation</td>
+            <td>@trip.AccommodationPhone</td>
+            <td>@trip.AccommodationEmail</td>
+            <td>@trip.Activity1</td>
+            <td>@trip.Activity2</td>
+            <td>@trip.Activity3</td>
+        </tr>
+    }
+</table>
