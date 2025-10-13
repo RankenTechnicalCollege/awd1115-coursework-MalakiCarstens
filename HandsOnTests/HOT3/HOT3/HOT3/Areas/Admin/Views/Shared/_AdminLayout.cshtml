@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+
+
+
+<header>
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <a class="nav-link text-black"
+                       asp-area="" asp-controller="Table" asp-action="Index">
+                        Main Site
+                    </a>
+                    <a class="nav-link text-black"
+                       asp-area="Admin" asp-controller="Table" asp-action="List" asp-route-brand="all">
+                        Table Stock
+                    </a>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+
+@await RenderSectionAsync("Scripts", required: false)
