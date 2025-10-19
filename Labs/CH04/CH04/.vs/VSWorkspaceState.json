@@ -6,8 +6,10 @@
     "\\CH04\\Migrations",
     "\\CH04\\Models",
     "\\CH04\\Views",
-    "\\CH04\\Views\\ContactManager"
+    "\\CH04\\Views\\ContactManager",
+    "\\CH04\\Views\\Details",
+    "\\CH04\\Views\\Shared"
   ],
-  "SelectedNode": "\\CH04\\Views\\ContactManager\\List.cshtml",
+  "SelectedNode": "\\CH04\\CH04.csproj",
   "PreviewInSolutionExplorer": false
 }
