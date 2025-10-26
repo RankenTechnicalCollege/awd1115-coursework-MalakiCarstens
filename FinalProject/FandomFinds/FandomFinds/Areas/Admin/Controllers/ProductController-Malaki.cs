@@ -27,11 +27,11 @@ namespace FandomFinds.Areas.Admin.Controllers
             List<Product> products;
              if (name.Equals("all"))
             {
-                products = _context.products.ToList();
+                products = _context.Products.ToList();
             }
             else
             {
-                products = _context.products.Where(p => p.Name == name).ToList();
+                products = _context.Products.Where(p => p.Name == name).ToList();
             }
 
             var brands = _context.Brands.ToList();
@@ -55,7 +55,7 @@ namespace FandomFinds.Areas.Admin.Controllers
         {
             if (id.HasValue)
             {
-                var product = _context.products.Find(id);
+                var product = _context.Products.Find(id);
                 if(product != null)
                 {
 
@@ -72,12 +72,12 @@ namespace FandomFinds.Areas.Admin.Controllers
             {
                 if (product.Id == 0)
                 {
-                    _context.products.Add(product);
+                    _context.Products.Add(product);
                     TempData["SuccessMessage"] = "Product successfully created!";
                 }
                 else
                 {
-                    _context.products.Update(product);
+                    _context.Products.Update(product);
                     TempData["SuccessMessage"] = "Product successfully updated!";
                 }
 
@@ -91,7 +91,7 @@ namespace FandomFinds.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var product = _context.products.Find(id)
+            var product = _context.Products.Find(id)
                 ;
             if (product != null)
             {
@@ -102,10 +102,10 @@ namespace FandomFinds.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult DeleteProduct(int id)
         {
-            var product = _context.products.Find(id);
+            var product = _context.Products.Find(id);
             if (product != null)
             {
-                _context.products.Remove(product);
+                _context.Products.Remove(product);
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = "Product successfully deleted!";
             }

@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\models\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\models\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch10\\todoapp\\todo\\migrations\\20251023195336_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592E5E95-3F6A-43BD-B287-36184E54B20A}|ToDo\\ToDo.csproj|solutionrelative:todo\\migrations\\20251023195336_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ToDo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ToDo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwE8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T22:03:23.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Filters.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\Filters.cs",
+              "RelativeDocumentMoniker": "ToDo\\Models\\Filters.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\Filters.cs",
+              "RelativeToolTip": "ToDo\\Models\\Filters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T20:20:41.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20251023195336_initial.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Migrations\\20251023195336_initial.cs",
+              "RelativeDocumentMoniker": "ToDo\\Migrations\\20251023195336_initial.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Migrations\\20251023195336_initial.cs",
+              "RelativeToolTip": "ToDo\\Migrations\\20251023195336_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T19:53:36.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\appsettings.json",
+              "RelativeDocumentMoniker": "ToDo\\appsettings.json",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\appsettings.json",
+              "RelativeToolTip": "ToDo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T21:40:13.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Program.cs",
+              "RelativeDocumentMoniker": "ToDo\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Program.cs",
+              "RelativeToolTip": "ToDo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:40:11.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToDoContext.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\ToDoContext.cs",
+              "RelativeDocumentMoniker": "ToDo\\Models\\ToDoContext.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\ToDoContext.cs",
+              "RelativeToolTip": "ToDo\\Models\\ToDoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T20:37:56.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDo.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\ToDo.cs",
+              "RelativeDocumentMoniker": "ToDo\\Models\\ToDo.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\ToDo.cs",
+              "RelativeToolTip": "ToDo\\Models\\ToDo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T20:06:16.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "ToDo\\Models\\Status.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\Status.cs",
+              "RelativeToolTip": "ToDo\\Models\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T19:59:52.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ToDo\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\Models\\Category.cs",
+              "RelativeToolTip": "ToDo\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T19:57:55.797Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

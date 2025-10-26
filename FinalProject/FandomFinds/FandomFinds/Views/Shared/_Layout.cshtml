@@ -42,6 +42,16 @@
                                asp-action="Index">Admin</a>
                         </li>
 
+
+                        <li class="nav-item" style="margin:auto;">
+                            <form asp-controller="Orders" asp-action="Shopping" method="get">
+                                <input style="width: 80%; float: left; border-top-left-radius: 20px; background:whitesmoke; height: 40px;" type="text" name="searchString" placeholder="Search Listings" />
+                                <button style="width: 20%; float: left; border:none; background:transparent; height: 40px;" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </li>
+
                     </ul>
                     <img class="img fluid logo" src="~/images/thedeltarune.jpg" alt="Site Logo" />
                 </div>

@@ -1,24 +1,49 @@
-﻿
+﻿@using FandomFinds
+@model PaginatedList<FandomFinds.Models.Product>
+
+
+
+
 @{
+    ViewData["Title"] = "Shopping";
+    var searchString = ViewData["CurrentFilter"] as string ?? "";
 }
 
-<div class="card" style="width: 18rem;">
-    <img src="/images/products1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">S.h. Figurarts Son Goku</h5>
-        <p class="card-text">Son Goku as seen in the upcoming 2022 film "DRAGON BALL SUPER : SUPER HERO" joins S.H.Figuarts, with all new expression parts and coloring![Set Contents] Main Body, Three optional expression parts, Three left and four right optional hands.</p>
+<h2>Shopping</h2>
+
+<form asp-controller="Orders" asp-action="Shopping" method="get" class="mb-3 d-flex">
+    <input type="text" name="searchString" value="@searchString" class="form-control me-2" placeholder="Search Listings" />
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (!Model.Any())
+{
+    <p>No products found.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="card col-md-3 m-2" style="width: 18rem;">
+                <img src="@product.ImagePath" class="card-img-top" alt="@product.Name" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Description</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">$@product.Price</li>
+                </ul>
+                <div class="card-body">
+                 
+                </div>
+            </div>
+        }
     </div>
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item">$37.99</li>
-        <li class="list-group-item">
-            Width: 9.00 (in)
-            Height: 7.00 (in)
-            Depth: 4.00 (in)
-        </li>
-        <li class="list-group-item">SKU: 4573102673374 | UPC: 4573102673374</li>
-    </ul>
-    <div class="card-body">
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+
+    <div class="d-flex justify-content-center mt-3">
+        <a asp-action="Shopping" asp-route-pageNumber="@(Model.PageIndex - 1)" asp-route-searchString="@searchString" class="btn btn-secondary me-2 @(Model.HasPreviousPage ? "" : "disabled")">Previous</a>
+        <span class="btn btn-light" style="cursor: default">Page @Model.PageIndex of @Model.TotalPages</span>
+        <a asp-action="Shopping" asp-route-pageNumber="@(Model.PageIndex + 1)" asp-route-searchString="@searchString" class="btn btn-secondary ms-2 @(Model.HasNextPage ? "" : "disabled")">Next</a>
     </div>
-</div>
+}

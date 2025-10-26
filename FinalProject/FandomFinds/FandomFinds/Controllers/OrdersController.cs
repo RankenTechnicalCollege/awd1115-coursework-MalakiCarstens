@@ -1,4 +1,5 @@
-﻿using FandomFinds.Data;
+﻿
+
 using FandomFinds.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -18,9 +19,9 @@ namespace FandomFinds.Controllers
     {
         private readonly UserManager<IdentityUser> _userManager;
 
-        private readonly ApplicationDbContext _context;
+        private readonly ShopContext _context;
 
-        public OrdersController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        public OrdersController(ShopContext context, UserManager<IdentityUser> userManager)
         {
             _userManager = userManager;
             _context = context;
@@ -155,10 +156,27 @@ namespace FandomFinds.Controllers
 
         // GET: /orders/shopping/
         [HttpGet("shopping")]
-        public IActionResult Shopping()
+        [AllowAnonymous]
+        public async Task<IActionResult> Shopping(string searchString, int pageNumber = 1)
         {
-            return View();
+            int pageSize = 4; // Number of products per page
+            IQueryable<Product> productsQuery = _context.Products;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                searchString = searchString.Trim().ToLower();
+                productsQuery = productsQuery.Where(p =>
+                    p.Name.ToLower().Contains(searchString) ||
+                    p.Description.ToLower().Contains(searchString) ||
+                    p.Brand.ToLower().Contains(searchString)
+                );
+            }
+
+            var paginatedProducts = await PaginatedList<Product>.CreateAsync(productsQuery.AsNoTracking(), pageNumber, pageSize);
+
+            return View(paginatedProducts);
         }
+
 
 
         private bool OrderExists(int id)
