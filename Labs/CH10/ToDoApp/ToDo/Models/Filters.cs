@@ -1,17 +1,19 @@
-﻿namespace ToDo.Models
+﻿using System.Net.NetworkInformation;
+
+namespace ToDoDemo.Models
 {
     public class Filters
     {
         public Filters(string filerstring)
         {
-            Filterstring = filerstring ?? "all-all-all";
-            string[] filters = Filterstring.Split('-');
+            FilterString = filerstring ?? "all-all-all";
+            string[] filters = FilterString.Split('-');
             CategoryId = filters[0];
             Due = filters[1];
             StatusId = filters[2];
         }
 
-        public string Filterstring { get; }
+        public string FilterString { get; }
         public string CategoryId { get; }
         public string Due { get; }
         public string StatusId { get; }

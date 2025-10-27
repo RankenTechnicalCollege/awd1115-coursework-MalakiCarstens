@@ -5,15 +5,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ToDo.Models;
+using ToDoDemo.Models;
 
 #nullable disable
 
-namespace ToDo.Migrations
+namespace ToDoDemo.Migrations
 {
     [DbContext(typeof(ToDoContext))]
-    [Migration("20251023195336_initial")]
-    partial class initial
+    [Migration("20251026235452_initialCreate")]
+    partial class initialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace ToDo.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ToDo.Models.Category", b =>
+            modelBuilder.Entity("ToDoDemo.Models.Category", b =>
                 {
                     b.Property<string>("CategoryId")
                         .HasColumnType("nvarchar(450)");
@@ -66,7 +66,7 @@ namespace ToDo.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ToDo.Models.Status", b =>
+            modelBuilder.Entity("ToDoDemo.Models.Status", b =>
                 {
                     b.Property<string>("StatusId")
                         .HasColumnType("nvarchar(450)");
@@ -92,7 +92,7 @@ namespace ToDo.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ToDo.Models.ToDo", b =>
+            modelBuilder.Entity("ToDoDemo.Models.ToDo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -124,15 +124,15 @@ namespace ToDo.Migrations
                     b.ToTable("ToDos");
                 });
 
-            modelBuilder.Entity("ToDo.Models.ToDo", b =>
+            modelBuilder.Entity("ToDoDemo.Models.ToDo", b =>
                 {
-                    b.HasOne("ToDo.Models.Category", "Category")
+                    b.HasOne("ToDoDemo.Models.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ToDo.Models.Status", "Status")
+                    b.HasOne("ToDoDemo.Models.Status", "Status")
                         .WithMany()
                         .HasForeignKey("StatusId")
                         .OnDelete(DeleteBehavior.Cascade)

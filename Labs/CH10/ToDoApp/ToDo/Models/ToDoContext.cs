@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 
-namespace ToDo.Models
+namespace ToDoDemo.Models
 {
     public class ToDoContext : DbContext
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i/Fh5YGlkK8=",
+  "dgSpecHash": "2MsMWFHqyRY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\ToDo.csproj",
+  "projectFilePath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\ToDoDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camis\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\camis\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

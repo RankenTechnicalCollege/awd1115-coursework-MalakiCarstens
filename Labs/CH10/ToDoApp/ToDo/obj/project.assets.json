@@ -4728,9 +4728,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\ToDo.csproj",
-      "projectName": "ToDo",
-      "projectPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\ToDo.csproj",
+      "projectUniqueName": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\ToDoDemo.csproj",
+      "projectName": "ToDoDemo",
+      "projectPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\ToDoDemo.csproj",
       "packagesPath": "C:\\Users\\camis\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH10\\ToDoApp\\ToDo\\obj\\",
       "projectStyle": "PackageReference",
