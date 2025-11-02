@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Hot4.Models.Appointment>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "All Appointments";
+}
+
+<h2>All Appointments</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<table class="table table-bordered table-striped">
+    <thead class="table-light">
+        <tr>
+            <th>Appointment ID</th>
+            <th>Date & Time</th>
+            <th>Customer</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var appt in Model)
+            {
+                <tr>
+                    <td>@appt.Id</td>
+                    <td>@appt.StartDateTime.ToString("f")</td>
+                    <td>@appt.Customer?.Username</td>
+                    
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@appt.Id" class="btn btn-sm btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@appt.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        
+    </tbody>
+</table>

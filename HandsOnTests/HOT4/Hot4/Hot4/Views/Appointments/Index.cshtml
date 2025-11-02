@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Hot4.Models.Appointment>
+<h2>All Appointments</h2>
+
+<table class="table">
+    <thead><tr><th>Start</th><th>Customer</th></tr></thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.StartDateTime.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@a.Customer?.Username</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
