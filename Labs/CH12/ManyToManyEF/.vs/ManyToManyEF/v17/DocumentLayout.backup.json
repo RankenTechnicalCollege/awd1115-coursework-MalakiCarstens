@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\student\\deletestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\student\\deletestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\courses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\courses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\student\\enrollnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\student\\enrollnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\student\\changeenrollment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\student\\changeenrollment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\models\\rankencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\models\\rankencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\labs\\ch12\\manytomanyef\\manytomanyef\\migrations\\20251105232947_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E300F359-9B4E-4761-8043-E4D51459DCF0}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\migrations\\20251105232947_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Courses\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Courses\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Courses\\Delete.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Courses\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T18:22:13.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T17:50:58.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T17:44:01.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangeEnrollment.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Student\\ChangeEnrollment.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Student\\ChangeEnrollment.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Student\\ChangeEnrollment.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Student\\ChangeEnrollment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T20:53:52.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnrollNewStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Student\\EnrollNewStudent.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Student\\EnrollNewStudent.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Student\\EnrollNewStudent.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Student\\EnrollNewStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T19:28:40.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T19:26:27.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T20:09:47.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "ManyToManyEF\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:34:36.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Student\\DeleteStudent.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Student\\DeleteStudent.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Student\\DeleteStudent.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Student\\DeleteStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T22:29:52.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "ManyToManyEF\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwBsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T23:21:12.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RankenContext.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Models\\RankenContext.cs",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Models\\RankenContext.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Models\\RankenContext.cs",
+              "RelativeToolTip": "ManyToManyEF\\Models\\RankenContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T23:01:40.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Courses\\Details.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Courses\\Details.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Views\\Courses\\Details.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Courses\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T23:25:51.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Program.cs",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Program.cs",
+              "RelativeToolTip": "ManyToManyEF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:25:18.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20251105232947_initial.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Migrations\\20251105232947_initial.cs",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Migrations\\20251105232947_initial.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Migrations\\20251105232947_initial.cs",
+              "RelativeToolTip": "ManyToManyEF\\Migrations\\20251105232947_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:29:47.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\appsettings.json",
+              "RelativeDocumentMoniker": "ManyToManyEF\\appsettings.json",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\appsettings.json",
+              "RelativeToolTip": "ManyToManyEF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T23:22:39.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Models\\Student.cs",
+              "RelativeToolTip": "ManyToManyEF\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:50:39.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\Labs\\CH12\\ManyToManyEF\\ManyToManyEF\\Models\\Course.cs",
+              "RelativeToolTip": "ManyToManyEF\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:09:03.78Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
