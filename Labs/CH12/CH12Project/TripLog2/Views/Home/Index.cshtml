@@ -1,0 +1,61 @@
+﻿@using TripLog2.Models.DomainModels
+@model IEnumerable<Trip>
+
+@{
+    ViewData["Title"] = "My Trip Log";
+}
+
+
+<h2>My Trip Log</h2>
+<div class="m-2">
+    <a asp-action="Add" asp-controller="Home" asp-route-id="Page1" class=" btn btn-primary fw-bold">Add Trip</a>
+</div>
+
+<form asp-action="Delete" asp-controller="Home">
+
+    <table class="table table-bordered table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Destination</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Accomodations</th>
+                <th>Things To Do</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Trip trip in Model)
+            {
+                <tr>
+                    <td>@trip.Destination.Name</td>
+                    <td>@trip.StartDate?.ToShortDateString()</td>
+                    <td>@trip.EndDate?.ToShortDateString()</td>
+                    <td>
+                        <div> @trip.Accomodation.Name </div>
+                        @if (trip.Accomodation.HasPhone)
+                        {
+                            <div>Phone @trip.Accomodation.Phone</div>
+                        }
+                        @if (trip.Accomodation.HasEmail)
+                        {
+                            <div>Email @trip.Accomodation.Email</div>
+                        }
+                    </td>
+                    <td>
+                        @foreach (Activity activity in trip.Activities)
+                        {
+                            <div>@activity.Name</div>
+                        }
+                    </td>
+
+                    <td>
+                        <button type="submit" name="id" value="@trip.TripId" class="btn btn-primary">
+                            Delete</button>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

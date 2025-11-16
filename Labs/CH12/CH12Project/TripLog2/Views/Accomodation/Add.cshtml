@@ -1,0 +1,19 @@
+﻿@using TripLog2.Models.DomainModels
+@model Accomodation
+
+@{
+    ViewBag.Title = "Add Activity ";
+}
+<div asp-validation-summary="All" class="text-danger"></div>
+<h2>Add New Activity</h2>
+
+<form asp-action="Add" method="post">
+    <div class="mb-3">
+        <input asp-for="Name" class="form-control mt-4" />
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-dark me-2">Save</button>
+        <a asp-action="Index" class="btn btn-outline-dark">Cancel</a>
+    </div>
+</form>
