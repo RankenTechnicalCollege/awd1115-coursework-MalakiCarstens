@@ -1,0 +1,35 @@
+﻿@using TripLog2.Models.DomainModels
+@model Trip
+
+@{
+    ViewBag.Title = "Add Trip Desination and Dates";
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="Page1" method="post">
+    <h2>Add Trip Destination and Dates</h2>
+    <div class="form-group">
+        <label asp-for="DestinationLocation" class="mt-2">Destination</label>
+        <input asp-for="DestinationLocation" class="form-control" />
+        <span asp-validation-for="DestinationLocation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AccomodationName" class="form-label mt-3">Accomodation Name </label>
+        <input asp-for="AccomodationName" class="form-control" />
+        <span asp-validation-for="AccomodationName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StartDate" class="form-label mt-3">Start Date</label>
+        <input asp-for="StartDate" type="text" class="form-control" placeholder="MM/dd/YYYY" value="" required />
+        <span asp-validation-for="StartDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EndDate" class="form-label mt-3">End Date</label>
+        <input asp-for="EndDate" type="text" class="form-control" placeholder="MM/dd/YYYY" value="" required />
+        <span asp-validation-for="EndDate" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-dark mt-3 me-2">Next</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-dark mt-3">Cancel</a>
+
+</form>
+

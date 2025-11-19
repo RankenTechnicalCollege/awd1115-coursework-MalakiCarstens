@@ -1,0 +1,32 @@
+﻿@using TripLog2.Models.DomainModels
+
+@model Trip
+
+@{
+    ViewBag.Title = "Add Things To Do";
+}
+
+<h2>Add Activites</h2>
+
+<form asp-action="Page2" method="post">
+    <input type="hidden" asp-for="DestinationId" />
+    <input type="hidden" asp-for="AccomodationId" />
+    <input type="hidden" asp-for="StartDate" />
+    <input type="hidden" asp-for="EndDate" />
+
+    <h5 class="text-dark">Hold ctrl to select more than one accomodation option</h5>
+    <select class="form-select mt-4" name="selectedActivities" multiple>
+        <option value="">Select Activity</option>
+        <option>Restaurant</option>
+        <option>Sight Seeing</option>
+        <option>Swimming</option>
+        <option>Shopping</option>
+        <option>Boat ride</option>
+        <option>Theme park</option>
+        <option>Beach</option>
+        <option>Museum</option>
+    </select>
+    <button type="submit" class="btn btn-dark mt-4 me-2">Save</button>
+    <a asp-for="Home" asp-action="Index" class="btn btn-primary mt-4">Cancel</a>
+
+</form>

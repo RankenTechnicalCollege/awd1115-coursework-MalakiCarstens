@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TripLog2.Models.DomainModels
 {
@@ -20,12 +21,16 @@ namespace TripLog2.Models.DomainModels
         [Required(ErrorMessage = "Please enter the date your trip ends.")]
 
         public DateTime? EndDate {  get; set; }
-
+        [ValidateNever]
         public int AccomodationId { get; set; }
         [ValidateNever]
 
         public Accomodation? Accomodation { get; set; } = null!;
 
       public ICollection<Activity> Activities { get; set; }
+        [NotMapped]
+         public string DestinationLocation { get; set; }
+        public string AccomodationName { get; set; }
+      
     }
 }
