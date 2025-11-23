@@ -24,35 +24,50 @@ namespace FandomFinds.Migrations
 
             modelBuilder.Entity("FandomFinds.Models.Brand", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("BrandId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BrandId"));
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("BrandId");
 
                     b.ToTable("Brands");
 
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            BrandId = 1,
                             Name = "Nintendo"
                         },
                         new
                         {
-                            Id = 2,
+                            BrandId = 2,
                             Name = "S.H Figuarts"
                         },
                         new
                         {
-                            Id = 3,
+                            BrandId = 3,
                             Name = "Funko"
+                        },
+                        new
+                        {
+                            BrandId = 4,
+                            Name = "Hasbro"
+                        },
+                        new
+                        {
+                            BrandId = 5,
+                            Name = "Tomy"
+                        },
+                        new
+                        {
+                            BrandId = 6,
+                            Name = "Jakks"
                         });
                 });
 
@@ -64,7 +79,8 @@ namespace FandomFinds.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
 
-                    b.Property<string>("IdentityUserId")
+                    b.Property<string>("ApplicationUserId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("OrderDate")
@@ -73,35 +89,64 @@ namespace FandomFinds.Migrations
                     b.Property<string>("OrderName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TotalAmount")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<decimal>("TotalAmount")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("OrderId");
 
-                    b.HasIndex("IdentityUserId");
+                    b.HasIndex("ApplicationUserId");
 
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("FandomFinds.Models.Product", b =>
+            modelBuilder.Entity("FandomFinds.Models.OrderItem", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("OrderItemId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderItemId"));
 
-                    b.Property<string>("Brand")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderItemId");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderItems");
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.Product", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
+
+                    b.Property<int>("BrandId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -111,181 +156,224 @@ namespace FandomFinds.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("Id");
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId");
+
+                    b.HasIndex("BrandId");
 
                     b.ToTable("Products");
 
                     b.HasData(
                         new
                         {
-                            Id = 1,
-                            Brand = "Nintendo",
+                            ProductId = 1,
+                            BrandId = 1,
                             Description = "Booster pack with 10 cards and a code card for online game. Each pack is random.",
                             ImagePath = "/images/destined-rival.jpg",
+                            ImageUrl = "/images/destined-rival.jpg",
                             Name = "Destined Rival TCG Pokemon",
-                            Price = 5.99m
+                            Price = 5.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 2,
-                            Brand = "sh figuarts",
+                            ProductId = 2,
+                            BrandId = 2,
                             Description = "High end action figure. Highly articulated.",
                             ImagePath = "/images/spiderman.jpg",
+                            ImageUrl = "/images/spiderman.jpg",
                             Name = "S.H Figuarts Spider-Man",
-                            Price = 65.99m
+                            Price = 65.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 3,
-                            Brand = "sh figuarts",
+                            ProductId = 3,
+                            BrandId = 2,
                             Description = "High end action figure. Highly articulated.",
                             ImagePath = "/images/broly.jpg",
+                            ImageUrl = "/images/broly.jpg",
                             Name = "S.H Figuarts Broly",
-                            Price = 89.99m
+                            Price = 89.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 4,
-                            Brand = "Funko",
+                            ProductId = 4,
+                            BrandId = 3,
                             Description = "Vinyl Collectable figure 6 inches in height",
                             ImagePath = "/images/metal-sonic-funko.jpg",
+                            ImageUrl = "/images/metal-sonic-funko.jpg",
                             Name = "Metal Sonic Funko Pop",
-                            Price = 12.99m
+                            Price = 12.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 5,
-                            Brand = "Tomy",
+                            ProductId = 5,
+                            BrandId = 5,
                             Description = "Collectable. Rare find",
                             ImagePath = "/images/blaziken.jpg",
+                            ImageUrl = "/images/blaziken.jpg",
                             Name = "Pokemon figure- Mega Blaziken",
-                            Price = 109.99m
+                            Price = 109.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 6,
-                            Brand = "jakks",
+                            ProductId = 6,
+                            BrandId = 6,
                             Description = "5in Mario figure in cat suit. Includes a question box. Exclusive movie merch",
                             ImagePath = "/images/cat-mario.jpg",
+                            ImageUrl = "/images/cat-mario.jpg",
                             Name = "Cat Mario",
-                            Price = 14.99m
+                            Price = 14.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 7,
-                            Brand = "sh figuarts",
+                            ProductId = 7,
+                            BrandId = 2,
                             Description = "High end action figure. Highly articulated. 2 pack. Reenact scenes from the manga with the high poseable figures",
                             ImagePath = "/images/chainsawman.jpg",
+                            ImageUrl = "/images/chainsawman.jpg",
                             Name = "S.h. Figuarts Denji chainsaw man figure. Double pack",
-                            Price = 149.99m
+                            Price = 149.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 8,
-                            Brand = "sh figuarts",
+                            ProductId = 8,
+                            BrandId = 2,
                             Description = "High end action figure. Highly articulated. Includes lightsabers.",
                             ImagePath = "/images/grevious.jpg",
+                            ImageUrl = "/images/grevious.jpg",
                             Name = "StarWars General Grevious figure",
-                            Price = 89.99m
+                            Price = 89.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 9,
-                            Brand = "sh figuarts",
+                            ProductId = 9,
+                            BrandId = 2,
                             Description = "High end action figure. Highly articulated. Includes sword and cape. 12in figure.",
                             ImagePath = "/images/king-cold.jpg",
+                            ImageUrl = "/images/king-cold.jpg",
                             Name = "King Cold-Dragonball figure",
-                            Price = 109.99m
+                            Price = 109.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 10,
-                            Brand = "jakks",
+                            ProductId = 10,
+                            BrandId = 6,
                             Description = "4 characters all included in this special pack. Articulated. Detailed designs. Inspired by the movie! Perfect set for collectors",
                             ImagePath = "/images/mario-set.jpg",
+                            ImageUrl = "/images/mario-set.jpg",
                             Name = "Mario Set 4 pack",
-                            Price = 49.99m
+                            Price = 49.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 11,
-                            Brand = "sh figuarts",
+                            ProductId = 11,
+                            BrandId = 2,
                             Description = "Very rare mario figure. Brand new. Sealed.",
                             ImagePath = "/images/mario-sh.jpg",
+                            ImageUrl = "/images/mario-sh.jpg",
                             Name = "Mario S.H. Figuarts",
-                            Price = 149.99m
+                            Price = 149.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 12,
-                            Brand = "jakks",
+                            ProductId = 12,
+                            BrandId = 6,
                             Description = "Hard to find. Articulated. Very detailed ",
                             ImagePath = "/images/metal-sonic.jpg",
+                            ImageUrl = "/images/metal-sonic.jpg",
                             Name = "Metal Sonic figure",
-                            Price = 69.99m
+                            Price = 69.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 13,
-                            Brand = "sh figuarts",
+                            ProductId = 13,
+                            BrandId = 2,
                             Description = "High end action figure. Highly articulated. Includes many accessories. Realistic.",
                             ImagePath = "/images/miles.jpg",
+                            ImageUrl = "/images/miles.jpg",
                             Name = "S.H Figuarts Miles Morales figure",
-                            Price = 89.99m
+                            Price = 89.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 14,
-                            Brand = "jakks",
+                            ProductId = 14,
+                            BrandId = 6,
                             Description = "Hard to find. Articulated. Very detailed ",
                             ImagePath = "/images/metal-sonic.jpg",
+                            ImageUrl = "/images/metal-sonic.jpg",
                             Name = "Metal Sonic figure",
-                            Price = 69.99m
+                            Price = 69.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 15,
-                            Brand = "Entertainment E",
+                            ProductId = 15,
+                            BrandId = 4,
                             Description = "Reenact classic scenes from highly popular show Stranger Things. Includes Demigorgan, Dustin and Will. ",
                             ImagePath = "/images/stranger-set.jpg",
+                            ImageUrl = "/images/stranger-set.jpg",
                             Name = "Stranger Things Character set",
-                            Price = 29.99m
+                            Price = 29.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 16,
-                            Brand = "S.H Figuarts",
+                            ProductId = 16,
+                            BrandId = 2,
                             Description = "Hard to find. Articulated. Very detailed ",
-                            ImagePath = "/images/scarlet-spider.jpg",
+                            ImagePath = "/images/scarletspider.jpg",
+                            ImageUrl = "/images/scarletspider.jpg",
                             Name = "Scarlet Spiderman",
-                            Price = 99.99m
+                            Price = 99.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 17,
-                            Brand = "Entertainment E",
+                            ProductId = 17,
+                            BrandId = 4,
                             Description = "Hard to find. From season one of Strangers Things. Eleven in dress with shaved head.",
                             ImagePath = "/images/stranger-11.jpg",
+                            ImageUrl = "/images/stranger-11.jpg",
                             Name = "Eleven Stranger Things figure",
-                            Price = 59.99m
+                            Price = 59.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 18,
-                            Brand = "S.H Figuarts",
+                            ProductId = 18,
+                            BrandId = 2,
                             Description = "Articulated. Very detailed. Accessories included. Collect them all!",
                             ImagePath = "/images/power.jpg",
+                            ImageUrl = "/images/power.jpg",
                             Name = "Chainsaw Man Power Figure",
-                            Price = 79.99m
+                            Price = 79.99m,
+                            Stock = 0
                         },
                         new
                         {
-                            Id = 19,
-                            Brand = "Hasbro",
+                            ProductId = 19,
+                            BrandId = 4,
                             Description = "Collectable. In original packaging. Perfect condition. Perfect for the collector in you life.",
                             ImagePath = "/images/optimus-prime.jpg",
+                            ImageUrl = "/images/optimus-prime.jpg",
                             Name = "Transformers Optimus Prime figure",
-                            Price = 29.99m
+                            Price = 29.99m,
+                            Stock = 0
                         });
                 });
 
@@ -342,6 +430,58 @@ namespace FandomFinds.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
                 {
                     b.Property<string>("Id")
@@ -351,10 +491,17 @@ namespace FandomFinds.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(21)
+                        .HasColumnType("nvarchar(21)");
+
                     b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
@@ -366,10 +513,12 @@ namespace FandomFinds.Migrations
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("NormalizedEmail")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("NormalizedUserName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
@@ -387,20 +536,223 @@ namespace FandomFinds.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("IdentityUser");
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasDiscriminator().HasValue("IdentityUser");
+
+                    b.UseTphMappingStrategy();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("ProviderKey")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("LoginProvider")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.ApplicationUser", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.HasDiscriminator().HasValue("ApplicationUser");
                 });
 
             modelBuilder.Entity("FandomFinds.Models.Order", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
-                        .WithMany()
-                        .HasForeignKey("IdentityUserId");
+                    b.HasOne("FandomFinds.Models.ApplicationUser", "User")
+                        .WithMany("Orders")
+                        .HasForeignKey("ApplicationUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.OrderItem", b =>
+                {
+                    b.HasOne("FandomFinds.Models.Order", "Order")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FandomFinds.Models.Product", "Product")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.Product", b =>
+                {
+                    b.HasOne("FandomFinds.Models.Brand", "Brand")
+                        .WithMany()
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Brand");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.Order", b =>
+                {
+                    b.Navigation("OrderItems");
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.Product", b =>
+                {
+                    b.Navigation("OrderItems");
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

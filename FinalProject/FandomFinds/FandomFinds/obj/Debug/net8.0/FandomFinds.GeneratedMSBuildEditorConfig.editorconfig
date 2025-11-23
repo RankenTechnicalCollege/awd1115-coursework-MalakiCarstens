@@ -68,16 +68,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Edit.cshtml]
@@ -90,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Shopping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFNob3BwaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/ViewOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFZpZXdPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Shared/Error.cshtml]

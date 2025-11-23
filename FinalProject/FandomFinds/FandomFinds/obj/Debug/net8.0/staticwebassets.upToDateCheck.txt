@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\1a83e734-3d94-4601-bac2-1d7fc224686f_Screenshot 2024-05-28 155212.png
 wwwroot\images\blaziken.jpg
 wwwroot\images\broly.jpg
 wwwroot\images\cat-mario.jpg

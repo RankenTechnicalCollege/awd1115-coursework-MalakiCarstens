@@ -2,8 +2,6 @@
 @model PaginatedList<FandomFinds.Models.Product>
 
 
-
-
 @{
     ViewData["Title"] = "Shopping";
     var searchString = ViewData["CurrentFilter"] as string ?? "";
@@ -22,6 +20,7 @@
 }
 else
 {
+
     <div class="row">
         @foreach (var product in Model)
         {
@@ -35,7 +34,12 @@ else
                     <li class="list-group-item">$@product.Price</li>
                 </ul>
                 <div class="card-body">
-                 
+                    <form asp-action="AddItem" asp-controller="Orders" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="productId" value="@product.ProductId" />
+                        <input type="hidden" name="quantity" value="1" />
+                        <button type="submit" class="btn btn-dark text-white">Add to cart</button>
+                    </form>
                 </div>
             </div>
         }

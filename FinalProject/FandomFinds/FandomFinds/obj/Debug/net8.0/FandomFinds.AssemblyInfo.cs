@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FandomFinds")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e0adcb98fe2faeaa75bb12087858cf6b2523998")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4bc021c5396d147d4ad6370ea4d239baaad778b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FandomFinds")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FandomFinds")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

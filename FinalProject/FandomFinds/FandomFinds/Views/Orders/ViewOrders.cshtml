@@ -1,0 +1,24 @@
+﻿@model List<FandomFinds.Models.Order>
+
+<h1>My Orders</h1>
+
+@foreach (var order in Model)
+{
+    <div class="card mb-3">
+        <div class="card-header">
+            Order #@order.OrderId - @order.OrderDate.ToShortDateString()
+        </div>
+        <div class="card-body">
+            <p>Total: @order.TotalAmount.ToString("C")</p>
+            <ul>
+                @foreach (var item in order.OrderItems)
+                {
+                    <li>@item.Product.Name x @item.Quantity (@item.Price.ToString("C"))</li>
+                }
+            </ul>
+        </div>
+    </div>
+}
+
+
+

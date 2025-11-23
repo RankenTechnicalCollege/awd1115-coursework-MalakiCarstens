@@ -2,38 +2,50 @@
 
 @{
     Layout = "_AdminLayout";
-    ViewBag.Title = "Add/Edit page";
+    ViewBag.Title = "Add/Edit Product";
 }
 
-<h1>Admin Product Add/Edit</h1>
+<h1>Admin - Add/Edit Product</h1>
 
-<form asp-controller="Product" asp-action="Add" method="post">
+<form asp-controller="Product" asp-action="AddEdit" method="post" enctype="multipart/form-data">
     <div asp-validation-summary="All" class="text-danger"></div>
 
+    <input type="hidden" asp-for="ProductId" />
+
     <div class="form-floating mb-2">
-        <input asp-for="Name" class="form-control" id="floatingName" placeholder="Product Name" />
-        <label asp-for="Name" for="floatingName">Name</label>
+        <input asp-for="Name" class="form-control" id="floatingName" />
+        <label asp-for="Name">Product Name</label>
     </div>
 
     <div class="form-floating mb-2">
-        <input asp-for="Description" class="form-control" id="floatingDescription" placeholder="Product Description" />
-        <label asp-for="Description" for="floatingDescription">Description</label>
+        <textarea asp-for="Description" class="form-control" id="floatingDescription"></textarea>
+        <label asp-for="Description">Description</label>
     </div>
 
     <div class="form-floating mb-2">
-        <input asp-for="Price" class="form-control" id="floatingPrice" placeholder="Price" />
-        <label asp-for="Price" for="floatingPrice">Price</label>
+        <input asp-for="Price" class="form-control" id="floatingPrice" />
+        <label asp-for="Price">Price</label>
     </div>
+
     <div class="form-floating mb-2">
-        <input asp-for="Brand" class="form-control" id="floatingBrand" placeholder="Brand" />
-        <label asp-for="Brand" for="floatingBrand">Brand</label>
+        <input asp-for="Stock" class="form-control" />
+        <label asp-for="Stock">Stock</label>
     </div>
 
-   
-    <input type="hidden" asp-for="Id" />
 
-    <button type="submit" class="btn btn-success">Save Product</button>
+    <div class="mb-3">
+        <label>Brand</label>
+        <select asp-for="BrandId" class="form-select"
+                asp-items="@(new SelectList(ViewBag.Brands, "BrandId", "Name"))">
+            <option selected disabled>-- Select Brand --</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label>Product Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+    </div>
 
+    <button type="submit" class="btn btn-success">Save</button>
     <a asp-area="Admin" asp-controller="Product" asp-action="List" class="btn btn-secondary">Cancel</a>
 </form>
 
