@@ -1,5 +1,6 @@
 ﻿
 @using Microsoft.AspNetCore.Identity;
+@inject SignInManager<ApplicationUser> signInManager
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,13 +43,16 @@
                         <li class="nav-item">
                             <a class="nav-link text-white @(controller == "Orders" && action == "Shopping" ? "active" : "")"  asp-area="" asp-controller="Orders" asp-action="Shopping">Go Shopping</a>
                         </li>
-
-                        <li class="nav-item mt-auto">
-                            <a class="nav-link text-white @(area == "Admin" ? "active" : "")"
-                               asp-area="Admin"
-                               asp-controller="Home"
-                               asp-action="Index">Admin</a>
-                        </li>
+                        @if(signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item mt-auto">
+                                <a class="nav-link text-white @(controller == "Home" && action == "Index" && area == "Admin" ? "active" : "")"
+                                   asp-area="Admin"
+                                   asp-controller="Home"
+                                   asp-action="Index">Admin</a>
+                            </li>
+                        }
+                       
 
                         <li class="nav-item">
                             <a class="nav-link text-white @(controller == "Orders" && action == "Shopping" ? "active" : "")" asp-area="" asp-controller="Orders" asp-action="Cart">Cart</a>
@@ -63,6 +67,12 @@
                                 </button>
                             </form>
                         </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white bg-warning" asp-area="Admin" asp-controller="User" asp-action="Index">Manage Users <i class="bi bi-people-fill"></i></a>
+                            </li>
+                        }
 
                     </ul>
                     <img class="img fluid logo" src="~/images/thedeltarune.jpg" alt="Site Logo" />

@@ -1,0 +1,14 @@
+﻿@model HOT3.Models.Table
+
+@{
+    Layout = "_AdminLayout";
+    ViewBag.Title = "Delete Bag";
+}
+
+<h1>Are you sure you want to delete @Model.Name?</h1>
+<form asp-controller="Table" asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="Delete" class="btn btn-danger" />
+
+    <a asp-area="Admin" asp-controller="Table" asp-action="List" class="btn btn-secondary">Cancel</a>
+</form>

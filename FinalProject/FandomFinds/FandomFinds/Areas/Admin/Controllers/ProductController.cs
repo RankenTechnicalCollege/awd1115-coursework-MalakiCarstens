@@ -2,11 +2,12 @@
 using FandomFinds.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Data.SqlTypes;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace FandomFinds.Areas.Admin.Controllers
 {
-
+   
     [Area("Admin")]
     public class ProductController : Controller
     {

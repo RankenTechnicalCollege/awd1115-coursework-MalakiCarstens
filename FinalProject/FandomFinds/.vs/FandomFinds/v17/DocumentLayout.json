@@ -3,8 +3,103 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\fandomfinds.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\fandomfinds.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FandomFindsDb/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -15,24 +110,8 @@
       "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\views\\orders\\vieworders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\views\\orders\\shopping.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\views\\orders\\shopping.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +124,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,16 +146,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FandomFinds\\Migrations\\20251123204804_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Migrations\\20251123202531_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FandomFinds\\Migrations\\20251123202531_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Migrations\\20251123201338_contextUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,14 +190,6 @@
       "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|c:\\users\\camis\\onedrive\\documents\\github\\awd1115-coursework-malakicarstens\\finalproject\\fandomfinds\\fandomfinds\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B5886F3-CDC3-4BCE-843C-5D957A69DE51}|FandomFinds\\FandomFinds.csproj|solutionrelative:fandomfinds\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -150,11 +209,202 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 30,
+          "SelectedChildIndex": 44,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T23:57:25.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAEwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:57:25.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAewBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:48:46.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwwAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T23:47:17.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAtwGwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:35:55.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "FandomFinds\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T23:27:36.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FandomFinds\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T23:25:31.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "FandomFinds\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "FandomFinds\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-07T23:24:37.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FandomFinds",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\FandomFinds.csproj",
+              "RelativeDocumentMoniker": "FandomFinds\\FandomFinds.csproj",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\FandomFinds.csproj",
+              "RelativeToolTip": "FandomFinds\\FandomFinds.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-07T23:23:48.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FandomFinds\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:06:02.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "FandomFinds\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T19:18:10.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "FandomFinds\\Models\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "FandomFinds\\Models\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T23:22:05.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FandomFinds\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T22:54:57.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbo.AspNetUserRoles.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FandomFindsDb/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FandomFindsDb/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-05T22:41:22.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "FandomFinds\\Models\\IdentityConfig.cs",
+              "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\IdentityConfig.cs",
+              "RelativeToolTip": "FandomFinds\\Models\\IdentityConfig.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T21:43:12.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ViewOrders.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Orders\\ViewOrders.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Views\\Orders\\ViewOrders.cshtml",
@@ -162,12 +412,11 @@
               "RelativeToolTip": "FandomFinds\\Views\\Orders\\ViewOrders.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T21:52:41.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:52:41.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 49,
               "Title": "20251123214728_initial.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Migrations\\20251123214728_initial.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Migrations\\20251123214728_initial.cs",
@@ -179,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 30,
               "Title": "QueryOptions.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\QueryOptions.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\QueryOptions.cs",
@@ -191,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Cart.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Orders\\Cart.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Views\\Orders\\Cart.cshtml",
@@ -199,11 +448,12 @@
               "RelativeToolTip": "FandomFinds\\Views\\Orders\\Cart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T20:59:47.528Z"
+              "WhenOpened": "2025-11-23T20:59:47.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 35,
               "Title": "20251123204804_init.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Migrations\\20251123204804_init.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Migrations\\20251123204804_init.cs",
@@ -215,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 36,
               "Title": "20251123202531_initial.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Migrations\\20251123202531_initial.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Migrations\\20251123202531_initial.cs",
@@ -227,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "20251123201338_contextUpdate.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Migrations\\20251123201338_contextUpdate.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Migrations\\20251123201338_contextUpdate.cs",
@@ -239,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 38,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\ProductViewModel.cs",
@@ -251,19 +501,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 3,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "FandomFinds\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T19:55:57.317Z"
+              "WhenOpened": "2025-11-23T19:55:57.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
               "Title": "20251123195226_initial.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Migrations\\20251123195226_initial.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Migrations\\20251123195226_initial.cs",
@@ -275,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 41,
               "Title": "20251123194453_initial.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Migrations\\20251123194453_initial.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Migrations\\20251123194453_initial.cs",
@@ -287,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 40,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\Brand.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\Brand.cs",
@@ -299,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 32,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Orders\\Edit.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Views\\Orders\\Edit.cshtml",
@@ -311,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Orders\\Create.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Views\\Orders\\Create.cshtml",
@@ -323,19 +574,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 10,
               "Title": "ShopContext.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\ShopContext.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\ShopContext.cs",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\ShopContext.cs",
               "RelativeToolTip": "FandomFinds\\Models\\ShopContext.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAIwOoAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T18:27:22.555Z"
+              "WhenOpened": "2025-10-26T18:27:22.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 42,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\OrderItem.cs",
@@ -347,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 29,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\Product.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\Product.cs",
@@ -359,19 +611,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "FandomFinds\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAwwIUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:53:36.992Z"
+              "WhenOpened": "2025-11-23T18:53:36.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 34,
               "Title": "AddEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\Product\\AddEdit.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Views\\Product\\AddEdit.cshtml",
@@ -383,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 43,
               "Title": "OrderViewModel.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\OrderViewModel.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\OrderViewModel.cs",
@@ -395,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "OrderItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\OrderItemViewModel.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\OrderItemViewModel.cs",
@@ -407,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 27,
               "Title": "Shopping.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Orders\\Shopping.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Views\\Orders\\Shopping.cshtml",
@@ -419,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 33,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\Product\\List.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Views\\Product\\List.cshtml",
@@ -431,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
@@ -443,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 28,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\Order.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\Order.cs",
@@ -455,31 +708,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "FandomFinds\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAiwAcBAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAAABgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T18:25:17.754Z"
+              "WhenOpened": "2025-10-26T18:25:17.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 13,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "FandomFinds\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:51:03.816Z"
+              "WhenOpened": "2025-11-23T18:51:03.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\IRepository.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\IRepository.cs",
@@ -491,44 +746,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Views\\Shared\\_LoginPartial.cshtml",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "FandomFinds\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T18:39:58.639Z"
+              "WhenOpened": "2025-11-23T18:39:58.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "FandomFinds\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "FandomFinds\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T22:56:36.294Z"
+              "WhenOpened": "2025-10-05T22:56:36.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Program.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Program.cs",
               "ToolTip": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Program.cs",
               "RelativeToolTip": "FandomFinds\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T21:22:59.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 23,
               "Title": "Ingredient.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\Ingredient.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\Ingredient.cs",
@@ -536,11 +793,12 @@
               "RelativeToolTip": "FandomFinds\\Models\\Ingredient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T22:13:48.758Z"
+              "WhenOpened": "2025-11-18T22:13:48.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 48,
               "Title": "ProductIngredient.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\Models\\ProductIngredient.cs",
               "RelativeDocumentMoniker": "FandomFinds\\Models\\ProductIngredient.cs",
@@ -552,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\appsettings.json",
               "RelativeDocumentMoniker": "FandomFinds\\appsettings.json",
@@ -560,12 +818,11 @@
               "RelativeToolTip": "FandomFinds\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-21T20:26:07.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T20:26:07.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 47,
               "Title": "PaginatedList.cs",
               "DocumentMoniker": "C:\\Users\\camis\\OneDrive\\Documents\\GitHub\\awd1115-coursework-MalakiCarstens\\FinalProject\\FandomFinds\\FandomFinds\\PaginatedList.cs",
               "RelativeDocumentMoniker": "FandomFinds\\PaginatedList.cs",

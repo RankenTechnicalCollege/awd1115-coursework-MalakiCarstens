@@ -1,0 +1,31 @@
+﻿@page
+@model HOT3.Areas.Identity.Pages.Account.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<div class="border border-2 border-dark bg-white p-5">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <form method="post">
+        <div class="form-floating mb-3">
+            <input asp-for="Input.UsernameOrEmail" class="form-control" placeholder="Username or Email" />
+            <label asp-for="Input.UsernameOrEmail">Username or Email</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input asp-for="Input.Password" type="password" class="form-control" placeholder="Password" />
+            <label asp-for="Input.Password">Password</label>
+        </div>
+
+        <div class="form-check mb-3">
+            <input asp-for="Input.RememberMe" class="form-check-input" />
+            <label asp-for="Input.RememberMe" class="form-check-label"></label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Login</button>
+        <a asp-page="/Account/Register" class="btn btn-link">Register</a>
+    </form>
+</div>

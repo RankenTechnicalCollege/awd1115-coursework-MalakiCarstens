@@ -1,0 +1,42 @@
+﻿@model List<HOT3.Models.Table>
+@{
+    ViewData["Title"] = "Table Page";
+   
+}
+<div class="text-center">
+    <h1>Desk Depot</h1>
+    <input type="hidden" value="Model.id"/>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="bg-dark list-group-item @(ViewBag.SelectedBrand == "Homary" ? "active" : "")">
+
+                <a asp-controller="Table" asp-action="Index" asp-route-brand="homary" class="brand nav-link text-white">Homary</a>
+            </li>
+            <li class="bg-dark list-group-item @(ViewBag.SelectedBrand == "BYBLIGHT" ? "active" : "")">
+                <a asp-controller="Table" asp-action="Index" asp-route-brand="byblight" class="brand nav-link text-white">BYBLIGHT</a>
+            </li>
+        </ul>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2">
+        @foreach (var table in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+
+                    <img src="~/images/@table.ImageFileName" class="card-img-top" alt="@table.Name" />
+                    <div class="card-body">
+                        <h5>@table.Brand</h5>
+                        <h6 class="text-bold"> @table.Name</h6>
+                        <p> @table.Description</p>
+                        <p>@table.Price</p>
+                    </div>
+                    <div class="card-footer">
+                        <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@table.Id" class="btn btn-secondary btn-lg">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
