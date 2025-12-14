@@ -1,5 +1,6 @@
 ﻿
 using FandomFinds.Models;
+using FandomFinds.Models.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

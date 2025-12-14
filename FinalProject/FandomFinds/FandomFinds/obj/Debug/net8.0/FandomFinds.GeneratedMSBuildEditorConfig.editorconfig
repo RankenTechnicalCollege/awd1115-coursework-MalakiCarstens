@@ -32,6 +32,18 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/ProductInformation/AddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEluZm9ybWF0aW9uXEFkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/ProductInformation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEluZm9ybWF0aW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/ProductInformation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEluZm9ybWF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/Product/AddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxBZGRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Fact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Home/Index.cshtml]

@@ -1,0 +1,20 @@
+﻿@model FandomFinds.Models.ProductInformation
+
+<h3>Remove</h3>
+
+<p>
+    Are you sure you want to delete?
+</p>
+
+<ul>
+    <li><strong>Product:</strong> @Model.Product.Name</li>
+    <li><strong>Information:</strong> @Model.Information.Name</li>
+</ul>
+
+<form asp-action="Delete">
+    <input type="hidden" name="productId" value="@Model.ProductId" />
+    <input type="hidden" name="informationId" value="@Model.InformationId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+

@@ -3,12 +3,15 @@ using FandomFinds.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Data.SqlTypes;
 using Microsoft.AspNetCore.Authorization;
+using FandomFinds.Models.ViewModels;
+using FandomFinds.Models.DataLayer;
 
 
 namespace FandomFinds.Areas.Admin.Controllers
 {
    
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         private readonly ShopContext _context;
@@ -76,26 +79,36 @@ namespace FandomFinds.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View(product);
 
-            if (product.ImageFile != null)
-            {
-                string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
-                string uniqueFileName = Guid.NewGuid() + "_" + product.ImageFile.FileName;
-                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await product.ImageFile.CopyToAsync(stream);
-                }
-
-                product.ImageUrl = "/images/" + uniqueFileName;
-            }
+           
             if (product.ProductId == 0)
             {
+                bool nameExists = await _context.Products.AnyAsync(p => p.Name == product.Name);
+                if (nameExists)
+                {
+                    ModelState.AddModelError("Name", "A product with this name already exists.");
+                    return View(product);
+                }
+
+                if (product.ImageFile != null)
+                {
+                    string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+                    string uniqueFileName = Guid.NewGuid() + "_" + product.ImageFile.FileName;
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await product.ImageFile.CopyToAsync(stream);
+                    }
+
+                    product.ImageUrl = "/images/" + uniqueFileName;
+                }
+
                 await _products.AddAsync(product);
                 TempData["SuccessMessage"] = "Product created successfully!";
             }
             else
             {
+              
                 var existing = await _products.GetByIdAsync(product.ProductId, new QueryOptions<Product>());
 
                 if (existing == null)
@@ -120,7 +133,6 @@ namespace FandomFinds.Areas.Admin.Controllers
             return RedirectToAction("List");
         }
 
-       
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

@@ -32,16 +32,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/ProductInformation/AddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEluZm9ybWF0aW9uXEFkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/ProductInformation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEluZm9ybWF0aW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/ProductInformation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEluZm9ybWF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/Product/AddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxBZGRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/Product/List-Malaki.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxMaXN0LU1hbGFraS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/Product/List.cshtml]
@@ -52,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,8 +72,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Fact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Home/Index.cshtml]
@@ -72,16 +112,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Edit.cshtml]
@@ -94,6 +134,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/Shopping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFNob3BwaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Orders/ViewOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFZpZXdPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/camis/OneDrive/Documents/GitHub/awd1115-coursework-MalakiCarstens/FinalProject/FandomFinds/FandomFinds/Views/Shared/Error.cshtml]

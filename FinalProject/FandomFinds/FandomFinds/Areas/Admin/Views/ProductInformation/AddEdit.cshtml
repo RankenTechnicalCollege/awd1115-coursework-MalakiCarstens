@@ -1,0 +1,31 @@
+﻿@model FandomFinds.Models.Information
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+<h2>Add / Edit Product Information</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label>Product</label>
+        <select asp-for="@Model.InformationId" asp-items="ViewBag.Products" class="form-control" name="productId">
+            <option value="">-- Select Product --</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProductionStandards"></label>
+        <textarea asp-for="ProductionStandards" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SafetyInformation"></label>
+        <textarea asp-for="SafetyInformation" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+

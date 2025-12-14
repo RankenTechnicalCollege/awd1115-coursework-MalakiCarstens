@@ -31,13 +31,19 @@
                             <a class="nav-link text-white @(controller == "Product" && action == "List" ? "active" : "")" asp-area="Admin" asp-controller="Product" asp-action="List" asp-route-name="all">Product List</a>
                         </li>
 
-                     @*    <li class="nav-item me-auto">
-                            <a class="nav-link text-white @(area == "Admin" ? "active" : "")"
-                               asp-area="Admin"
-                               asp-controller="Home"
-                               asp-action="Index">Admin</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white @(controller == "ProductInformation" && action == "Index" ? "active" : "")" asp-area="Admin" asp-controller="ProductInformation" asp-action="Index" asp-route-name="all">Product Info</a>
                         </li>
- *@
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white bg-warning" asp-area="Admin" asp-controller="User" asp-action="Index">Manage Users <i class="bi bi-people-fill"></i></a>
+                            </li>
+                        }
+
+                      
+
                     </ul>
                     <img class="img fluid logo" src="~/images/thedeltarune.jpg" alt="Site Logo" />
                 </div>

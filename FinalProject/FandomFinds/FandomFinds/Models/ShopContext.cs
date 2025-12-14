@@ -13,16 +13,33 @@ namespace FandomFinds.Models
         public DbSet<ProductReview> ProductReviews { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<ProductInformation> ProductInformation { get; set; }
+        public DbSet<Information> Information { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
 
-            //builder.Entity<ProductIngredient>().HasKey(pi => new { pi.ProductId, pi.IngredientId });
-            //builder.Entity<ProductIngredient>().HasOne(pi => pi.Product).WithMany(p => p.ProductIngredients).HasForeignKey(pi => pi.ProductId);
-            //builder.Entity<ProductIngredient>().HasOne(pi => pi.Ingredient).WithMany(i => i.ProductIngredients).HasForeignKey(pi => pi.IngredientId);
+            modelBuilder.Entity<ProductInformation>()
+       .HasKey(pi => new { pi.ProductId, pi.InformationId });
 
+            modelBuilder.Entity<ProductInformation>()
+                .HasOne(pi => pi.Product)
+                .WithMany(p => p.ProductInformation)
+                .HasForeignKey(pi => pi.ProductId);
+
+            modelBuilder.Entity<ProductInformation>()
+                .HasOne(pi => pi.Information)
+                .WithMany(i => i.ProductInformation)
+                .HasForeignKey(pi => pi.InformationId);
+
+            // Brand → Product (One-to-Many)
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.Brand)
+                .WithMany(b => b.Products)
+                .HasForeignKey(p => p.BrandId);
 
             modelBuilder.Entity<Brand>().HasData(
                      new Brand { BrandId = 1, Name = "Nintendo" },

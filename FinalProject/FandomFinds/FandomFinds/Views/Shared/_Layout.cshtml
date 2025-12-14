@@ -32,6 +32,10 @@
                        @*  <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Sell" asp-action="Index">Sell</a>
                         </li> *@
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white @(controller == "Orders" && action == "Shopping" ? "active" : "")" asp-area="" asp-controller="Orders" asp-action="Shopping">Go Shopping</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-white @(controller == "Orders" && action == "ViewOrders" ? "active" : "")"
                                asp-controller="Orders"
@@ -40,10 +44,18 @@
                             </a>
                         </li>
 
+                    
+
                         <li class="nav-item">
-                            <a class="nav-link text-white @(controller == "Orders" && action == "Shopping" ? "active" : "")"  asp-area="" asp-controller="Orders" asp-action="Shopping">Go Shopping</a>
+                            <a class="nav-link text-white @(controller == "Fact" && action == "Index" ? "active" : "")" asp-area="" asp-controller="Fact" asp-action="Index">Random Fact</a>
                         </li>
-                        @if(signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                    
+                       
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white @(controller == "Orders" && action == "Shopping" ? "active" : "")" asp-area="" asp-controller="Orders" asp-action="Cart">Cart</a>
+                        </li>
+                        @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                         {
                             <li class="nav-item mt-auto">
                                 <a class="nav-link text-white @(controller == "Home" && action == "Index" && area == "Admin" ? "active" : "")"
@@ -52,11 +64,6 @@
                                    asp-action="Index">Admin</a>
                             </li>
                         }
-                       
-
-                        <li class="nav-item">
-                            <a class="nav-link text-white @(controller == "Orders" && action == "Shopping" ? "active" : "")" asp-area="" asp-controller="Orders" asp-action="Cart">Cart</a>
-                        </li>
 
 
                         <li class="nav-item" style="margin:auto;">
@@ -67,12 +74,7 @@
                                 </button>
                             </form>
                         </li>
-                        @if (User.IsInRole("Admin"))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-white bg-warning" asp-area="Admin" asp-controller="User" asp-action="Index">Manage Users <i class="bi bi-people-fill"></i></a>
-                            </li>
-                        }
+                    
 
                     </ul>
                     <img class="img fluid logo" src="~/images/thedeltarune.jpg" alt="Site Logo" />

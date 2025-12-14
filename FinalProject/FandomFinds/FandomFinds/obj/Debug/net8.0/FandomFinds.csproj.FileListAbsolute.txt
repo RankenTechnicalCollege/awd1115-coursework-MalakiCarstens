@@ -288,7 +288,6 @@ C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\Final
 C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Debug\net8.0\FandomFi.25F656B9.Up2Date
 C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Debug\net8.0\FandomFinds.dll
 C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Debug\net8.0\refint\FandomFinds.dll

@@ -23,6 +23,10 @@ namespace FandomFinds.Models
         public IFormFile? ImageFile { get; set; }
         public string? ImageUrl { get; set; }
 
+        [ValidateNever]
+        public ICollection<ProductInformation> ProductInformation { get; set; }
+
+
 
         [ValidateNever]
         public ICollection<OrderItem>? OrderItems { get; set; }

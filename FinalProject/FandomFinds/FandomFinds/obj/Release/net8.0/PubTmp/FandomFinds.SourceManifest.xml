@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Release\net8.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\camis\OneDrive\Documents\GitHub\awd1115-coursework-MalakiCarstens\FinalProject\FandomFinds\FandomFinds\obj\Release\net8.0\PubTmp\EFSQLScripts\FandomFinds.Models.ShopContext.sql" />
+</sitemanifest>

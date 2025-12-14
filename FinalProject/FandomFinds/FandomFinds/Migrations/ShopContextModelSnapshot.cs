@@ -136,6 +136,31 @@ namespace FandomFinds.Migrations
                         });
                 });
 
+            modelBuilder.Entity("FandomFinds.Models.Information", b =>
+                {
+                    b.Property<int>("InformationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InformationId"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductionStandards")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SafetyInformation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("InformationId");
+
+                    b.ToTable("Information");
+                });
+
             modelBuilder.Entity("FandomFinds.Models.Order", b =>
                 {
                     b.Property<int>("OrderId")
@@ -442,6 +467,21 @@ namespace FandomFinds.Migrations
                         });
                 });
 
+            modelBuilder.Entity("FandomFinds.Models.ProductInformation", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("InformationId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "InformationId");
+
+                    b.HasIndex("InformationId");
+
+                    b.ToTable("ProductInformation");
+                });
+
             modelBuilder.Entity("FandomFinds.Models.ProductReview", b =>
                 {
                     b.Property<int>("Id")
@@ -661,12 +701,31 @@ namespace FandomFinds.Migrations
             modelBuilder.Entity("FandomFinds.Models.Product", b =>
                 {
                     b.HasOne("FandomFinds.Models.Brand", "Brand")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Brand");
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.ProductInformation", b =>
+                {
+                    b.HasOne("FandomFinds.Models.Information", "Information")
+                        .WithMany("ProductInformation")
+                        .HasForeignKey("InformationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FandomFinds.Models.Product", "Product")
+                        .WithMany("ProductInformation")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Information");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -725,6 +784,16 @@ namespace FandomFinds.Migrations
                     b.Navigation("Orders");
                 });
 
+            modelBuilder.Entity("FandomFinds.Models.Brand", b =>
+                {
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("FandomFinds.Models.Information", b =>
+                {
+                    b.Navigation("ProductInformation");
+                });
+
             modelBuilder.Entity("FandomFinds.Models.Order", b =>
                 {
                     b.Navigation("OrderItems");
@@ -733,6 +802,8 @@ namespace FandomFinds.Migrations
             modelBuilder.Entity("FandomFinds.Models.Product", b =>
                 {
                     b.Navigation("OrderItems");
+
+                    b.Navigation("ProductInformation");
                 });
 #pragma warning restore 612, 618
         }

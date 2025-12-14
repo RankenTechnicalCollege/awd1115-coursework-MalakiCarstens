@@ -4,6 +4,7 @@ using FandomFinds.Models;
 using System.Threading.Tasks;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.AspNetCore.Authorization;
+using FandomFinds.Models.ViewModels;
 
 namespace FandomFinds.Areas.Admin.Controllers
 {

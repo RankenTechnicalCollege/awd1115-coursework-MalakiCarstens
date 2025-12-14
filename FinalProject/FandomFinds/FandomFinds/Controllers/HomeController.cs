@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using FandomFinds.Models;
+using FandomFinds.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FandomFinds.Controllers

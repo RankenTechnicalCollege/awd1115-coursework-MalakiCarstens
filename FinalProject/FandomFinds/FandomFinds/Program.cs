@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
     ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -26,6 +28,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 }).AddEntityFrameworkStores<ShopContext>().AddDefaultTokenProviders();
 builder.Services.AddTransient<IEmailSender, NullEmailSender>();
 
+builder.Services.AddHttpClient();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
@@ -51,6 +54,12 @@ builder.Services.AddRouting(options =>
 });
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ShopContext>();
+    db.Database.Migrate();  // This applies pending migrations
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
